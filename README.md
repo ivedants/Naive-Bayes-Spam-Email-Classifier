@@ -1,11 +1,12 @@
 # Naive Bayes Classifier to filter Spam Emails
 Many organizations and individuals receive too much email spam and they only want the legitimate emails in their inbox. All incoming spam email should be filtered out. This project starts by pre-processing the text data in the raw emails. Then we train a machine learning model that classifies the email as either spam or non-spam. Then finally, we test the model’s performance. This project is implemented basically using Naïve-Bayes Classification. In order to make the algorithm understand the text in the email, there is some natural language processing involved. For doing this, the project makes use of NLTK package found online at www.nltk.org. Apart from this, this project makes use of word clouds and creates the vocabulary for spam classification.
 ## Getting Started
-All the code notebooks are inside a folder named "Code Notebooks". There are 3 notebooks in total as follows:
+There are 3 code notebooks in total as follows:
 1. Naive Bayes Spam Email Classifier - Pre-Preprocessing.ipynb 
 2. Naive Bayes Spam Email Classifier - Testing, Inference, & Evaluation.ipynb
 3. Naive Bayes Spam Email Classifier - Training.ipynb
-You will find all the other resources used in this project inside another folder named "SpamData".
+
+You will also find all the other resources used for this project here. 
 
 **NOTE:** Please feel free to reach out to ivedantshrivastava@gmail.com with any doubts regarding this project.
 
