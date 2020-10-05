@@ -30,9 +30,9 @@ Next, comes downloading the resources we need from the NLTK library. We make use
 
 We first slice the data frame into two different categories - Spam emails and Non-Spam/Ham emails. Then we subset the series with an index. In order to make the word clouds for both Spam and Non-Spam words, we are using WordCloud package from wordcloud python library.
 
-[WORD CLOUD OF NON-SPAM WORD STEMS]
+![alt text](https://github.com/ivedants/Naive-Bayes-Spam-Email-Classifier/blob/master/Non-Spam%20Word%20Cloud.png?raw=true)
 
-[WORD CLOUD OF SPAM WORD STEMS]
+![alt text](https://github.com/ivedants/Naive-Bayes-Spam-Email-Classifier/blob/master/Spam%20Word%20Cloud.png?raw=true)
 
 ### Generating vocabulary and dictionary
 
@@ -68,7 +68,7 @@ A Prior is defined as a guess or belief about some quantity. In Bayesian approac
 
 We first calculate the joint probabilities in log format using the following formulae:
 
-[FORMULAE]
+![alt text](https://github.com/ivedants/Naive-Bayes-Spam-Email-Classifier/blob/master/Joint%20Probability%20Formulae.png?raw=true)
 
 We then start making predictions by checking for the higher joint probability. Based on this,  we get the final result of whether an email is spam or not. 
 
@@ -80,11 +80,11 @@ We performed an accuracy check of our model and found that approximately **96.98
 
 We visualize our results and draw a decision boundary. For better understanding and representation of data, we created two subplots with one being a zoomed version. 
 
-[DATA VISUALIZATION - FIGURE 1]
+![alt text](https://github.com/ivedants/Naive-Bayes-Spam-Email-Classifier/blob/master/Data%20Visualization%20-%20Figure%201.png?raw=true)
 
 In order to make it look even better and categorize better between the data points, we used some styling and plotted this. 
 
-[DATA VISUALIZATION - FIGURE 2]
+![alt text](https://github.com/ivedants/Naive-Bayes-Spam-Email-Classifier/blob/master/Data%20Visualization%20-%20Figure%202.png?raw=true)
 
 # 4. Metrics and Evaluation
 
