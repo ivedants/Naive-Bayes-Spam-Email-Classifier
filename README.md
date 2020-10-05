@@ -6,7 +6,7 @@ There are 3 code notebooks in total as follows:
 2. Naive Bayes Spam Email Classifier - Testing, Inference, & Evaluation.ipynb
 3. Naive Bayes Spam Email Classifier - Training.ipynb
 
-You will also find all the other resources used for this project here. 
+You will find the corpus used for this project at https://spamassassin.apache.org/old/publiccorpus/. 
 
 **NOTE:** Please feel free to reach out to ivedantshrivastava@gmail.com with any doubts regarding this project.
 
