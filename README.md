@@ -22,7 +22,7 @@ The procedure basically involves of three stages - Pre-processing the data, trai
 
 We start this stage in the Jupyter Notebook called "Naive Bayes Spam Email Classifier - Pre-Preprocessing.ipynb". After importing all the Python libraries in the Jupyter notebook and defining all the constants, there are a few procedures that are performed in order to pre-process the data before the model is trained. First, data cleaning is done. For this, we first check for missing values i.e. check if any email bodies are null and empty. Then we locate them and remove their system file entries from our dataframe. Then for making it easy to track the remaining files, we add Document IDs to the dataset. This is then saved as a JSON file using Pandas library. In order to have a better understanding of the dataset, we then visualize it using charts. In this project, we have made use of a donut chart.
 
-[DONUT CHART]
+https://github.com/ivedants/Naive-Bayes-Spam-Email-Classifier/blob/master/Donut%20Chart.jpg
 
 Next, comes downloading the resources we need from the NLTK library. We make use of the package ‘punkt’ for tokenizers and ‘stopwords’ for stopwords. Then we define a function clean_msg_no_html for removing the HTML tags, converting all the text in the email body to lower case, splitting it into individual words and stemming them followed by removing all the stop words and punctuation. This function is applied to all the email messages in our dataframe. 
 
