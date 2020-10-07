@@ -132,4 +132,7 @@ In this project, we successfully pre-processed, trained, and tested a machine le
 3. Natural Language Toolkit: https://www.nltk.org
 4. SpamAssasin Public Corpus: https://spamassassin.apache.org/old/publiccorpus/
 
+## Author:
+
+Vedant Shrivastava (GitHub: https://github.com/ivedants ; Email: ivedantshrivastava@gmail.com)
 
