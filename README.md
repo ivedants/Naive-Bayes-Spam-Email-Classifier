@@ -1,5 +1,30 @@
 # Naive Bayes Classifier to filter Spam Emails
 Many organizations and individuals receive too much email spam and they only want the legitimate emails in their inbox. All incoming spam email should be filtered out. This project starts by pre-processing the text data in the raw emails. Then we train a machine learning model that classifies the email as either spam or non-spam. Then finally, we test the model’s performance. This project is implemented basically using Naïve-Bayes Classification. In order to make the algorithm understand the text in the email, there is some natural language processing involved. For doing this, the project makes use of NLTK package found online at www.nltk.org. Apart from this, this project makes use of word clouds and creates the vocabulary for spam classification.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Introduction](#introduction)
+- [Procedure](#procedure)
+  1. [Pre-Processing](#1-pre-processing)
+    - [Word Cloud](#word-cloud)
+    - [Generating vocabulary and dictionary](#generating-vocabulary-and-dictionary)
+    - [Generating features and sparse matrix](#generating-features-and-sparse-matrix)
+  2. [Training](#2-training)
+    - [Training the Naive Bayes Model](#training-the-naive-bayes-model)
+  3. [Testing, Inference, and Evaluation](#3-testing-inference-and-evaluation)
+    - [Setting the Prior](#setting-the-prior)
+    - [Calculating Joint Probability and making predictions](#calculating-joint-probability-and-making-predictions)
+    - [Accuracy](#accuracy)
+ - [Visualizing Results](#visualizing-results)
+ - [Metrics and Evaluation](#metrics-and-evaluation)
+    - [False Negatives and False Positives](#false-negatives-and-false-positives)
+    - [Recall Score, Precision Score, and F1 Score](#recall-score-precision-score-and-f1-score)
+ - [Conclusion](#conclusion)
+ - [References](#references)
+ 
+
+
 ## Getting Started
 There are 3 code notebooks in total as follows:
 1. Naive Bayes Spam Email Classifier - Pre-Preprocessing.ipynb 
@@ -76,7 +101,7 @@ We then start making predictions by checking for the higher joint probability. B
 
 We performed an accuracy check of our model and found that approximately **96.98%** of the documents were classified correctly in their testing dataset. The fraction classified incorrectly is 3.02%. Thus, accuracy of the model is 96.98%. 
 
-# 3. Visualizing Results
+## Visualizing Results
 
 We visualize our results and draw a decision boundary. For better understanding and representation of data, we created two subplots with one being a zoomed version. 
 
@@ -86,21 +111,21 @@ In order to make it look even better and categorize better between the data poin
 
 ![alt text](https://github.com/ivedants/Naive-Bayes-Spam-Email-Classifier/blob/master/Data%20Visualization%20-%20Figure%202.png?raw=true)
 
-# 4. Metrics and Evaluation
+## Metrics and Evaluation
 
-## False Positives and False Negatives
+### False Positives and False Negatives
 
 We found that the total number of false positives is 11 and the total number of false negatives is 41. 
 
-## Recall Score, Precision Score, and F1 Score
+### Recall Score, Precision Score, and F1 Score
 
 We found that the recall score is 93.04%, the precision score is 0.98, and the F1 Score is 0.95. 
 
-# 5. Conclusion
+## Conclusion
 
 In this project, we successfully pre-processed, trained, and tested a machine learning model based on Naive Bayes Classification for classifying whether an email is spam or non-spam. We also implemented word clouds using NLP methodologies to detect word stems and build word clouds for both spam and non-spam word stems. We also visualized our results using some chart styling methods for better data representation. Alternately, ScikitLearn can be used to implement Naive Bayes in our model. Our model misclassifies 41 non-spam emails as spam emails and 11 spam emails as spam emails and achieves **96.98%** accuracy. 
 
-# References
+## References
 
 1. Conway, D. & White, J. Machine Learning for Hackers, February 2012: O’Reilly Media.
 2. https://towardsdatascience.com/implementing-a-naive-bayes-classifier-for-text-categorization-in-five-steps-f9192cdd54c3
